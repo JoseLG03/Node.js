@@ -1,0 +1,19 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "Aprendiendo Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLG03/Node.js.git"
+  },
+  "author": "José López Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLG03/Node.js/issues"
+  },
+  "homepage": "https://github.com/JoseLG03/Node.js#readme"
+}
