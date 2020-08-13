@@ -17,3 +17,13 @@ let calculo ={
 }
 
 console.log( calculo.dividir(10), calculo.duplicar(10));
+
+//Exclusivos de Node.js
+//Buffer salida, para manejar los elementos binarios
+
+console.log(Buffer);
+
+//process
+//información relacionada con el proceso
+
+console.log(process.platform);
