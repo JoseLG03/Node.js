@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JoseLG03/Node.js/issues"
   },
-  "homepage": "https://github.com/JoseLG03/Node.js#readme"
+  "homepage": "https://github.com/JoseLG03/Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
