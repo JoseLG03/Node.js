@@ -31,7 +31,12 @@ console.log(process.platform);
 */
 var http = require('http');
 
-var servidor = http.createServer(function(){
+var servidor = http.createServer(function(peticion, respuesta){
+
+    respuesta.writeHead( 200, {'content-type': 'text/html'});
+
+    respuesta.write("Respuesta" + peticion.url);
+
     console.log("petición web");
 })
 
