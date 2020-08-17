@@ -1,3 +1,4 @@
+/*
 function saludo(){
     var msj = "Hola mundo";
     return msj;
@@ -27,3 +28,13 @@ console.log(Buffer);
 //información relacionada con el proceso
 
 console.log(process.platform);
+*/
+var http = require('http');
+
+var servidor = http.createServer(function(){
+    console.log("petición web");
+})
+
+servidor.listen(3000);
+
+console.log("Ejecutando el servidor NodeJs");
