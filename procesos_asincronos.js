@@ -6,6 +6,8 @@ fs.copyFile('./archivos/old_files/texto_original.txt',
     if(error){
         console.log("Error");
     }else{
-        console.log("OK");
+        fs.writeFile('./archivos/old_files/confirmacion.txt', 'Archivo copiado exitosamente', (error)=>{
+            console.log('Proceso finalizado');
+        })
     }
 });
