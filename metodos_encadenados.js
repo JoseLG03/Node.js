@@ -13,7 +13,7 @@ function copiarArchivo(rutaOriginal, nuevaRuta, ArchivoParaCopiar){
 function eliminarArchivo(rutaOriginal, ArchivoParaCopiar){
     fs.unlink(rutaOriginal + '/' + ArchivoParaCopiar, (error)=>{
         if(error){
-            console.log("Error en la funcion de eliminar");
+            console.log("Error al eliminar archivo");
         }else{
             console.log("Archivo se movio exitosamente.");
         }
