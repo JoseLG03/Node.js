@@ -1,1 +1,1 @@
-Esto es un archivo de texto.
+Datos enviados desde Node.js
