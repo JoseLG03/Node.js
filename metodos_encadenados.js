@@ -15,7 +15,7 @@ function eliminarArchivo(rutaOriginal, ArchivoParaCopiar){
         if(error){
             console.log("Error al eliminar archivo");
         }else{
-            console.log("Archivo se movio exitosamente.");
+            console.log("Archivo se movio con éxito.");
         }
     });
 }
