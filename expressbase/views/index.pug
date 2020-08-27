@@ -1,8 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  if book
+    h1 Libro
+    p #{book.nombreLibro}
 
-  p
-  a(href="http://google.com") Enlace
+    h1 Autor
+    p #{book.autor}
+  
+    p
+    a(href="http://google.com") Enlace a Google
